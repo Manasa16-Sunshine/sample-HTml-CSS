@@ -1,0 +1,61 @@
+<html>
+    <head>
+      <style>
+        
+
+        * {
+            font-family: sans-serif;
+        }
+
+        input {
+            margin-bottom: 0.5rem;
+            margin-top: 0.9rem;
+        }
+
+        button {
+            margin-left: 30%;
+            border-radius: 6px;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.375);
+            margin-top: 0.5rem;
+            padding: 0.5rem  0.9rem;
+            outline: none;
+            border:none;
+        }
+        @keyframes rotate3d {
+            0%{transform: rotate(70deg);}
+            100%{transform: rotate(360deg);}
+            
+        }
+        .rotate{
+            animation: rotate3d 1s ease-in-out 0s;
+            margin-left:30%;
+
+
+        }
+        
+    
+        .login_page{
+            top: 50%;
+            left: 50%;
+            border: 1px solid black;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            font-family: sans-serif;
+            color: black;
+            padding: 2rem;
+            border-radius: 6px;
+        }
+        
+      </style>
+    </head>
+    <body class="login_page">
+        <h2>Instagram</h2>
+        <img class="rotate" width="60px" height="80px" src="https://tse1.mm.bing.net/th?id=OIP.-ZirgQE5pr8e7htQWowJIgHaHa&pid=Api&P=0&h=180">
+        <label>Username</label></br>
+        <input type="text" placeholder="enter mail,mobile no or username"></br>
+        <label>Password</label></br>
+        <input type="password" placeholder="enter password"></br>
+        <button>Login</button>
+    </body>
+</html>
